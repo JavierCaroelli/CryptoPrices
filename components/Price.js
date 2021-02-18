@@ -8,7 +8,7 @@ const Price = ({ crypto, priceResult }) => {
   return (
     <View style={styles.priceView}>
       <Text style={styles.priceText}>
-        Precio del {crypto}: <Text style={styles.priceSpan}>{priceResult.PRICE}</Text>
+        Precio: <Text style={styles.priceSpan}>{priceResult.PRICE}</Text>
       </Text>
       <Text style={styles.priceText}>
         Precio más alto del día: <Text style={styles.priceSpan}>{priceResult.HIGHDAY}</Text>
