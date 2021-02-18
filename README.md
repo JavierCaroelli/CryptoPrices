@@ -23,6 +23,6 @@ enlace de descarga para el que desee probarla.
 Para utilizar este proyecto tan solo se necesita tener actualizado expo y nodeJs.
 
 ## Preview 📄
-
-<p></p>
-    <img src='./Preview/1.jpeg'>
+<p align='left'>
+    <img src='https://github.com/JavierCaroelli/CryptoPrices/blob/master/PreView/1.jpeg' >
+</p>
