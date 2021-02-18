@@ -25,7 +25,7 @@ export default function App() {
           setPriceResult(result.data.DISPLAY[crypto][coin]);
           setNewApiConsult(false);
           setLoading(false);
-        }, 1500);
+        }, 650);
       }
     };
     convert();
