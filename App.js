@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { View, Image, ActivityIndicator } from "react-native";
+import { View, Image, ActivityIndicator, ScrollView } from "react-native";
 import { useFonts } from "expo-font";
 import Header from "./components/Header";
 import Form from "./components/Form";
@@ -49,17 +49,19 @@ export default function App() {
   return (
     <>
       <Header />
-      <Image style={styles.image} source={require("./assets/img/cryptomonedas.png")} />
-      <View style={styles.content}>
-        <Form
-          coin={coin}
-          crypto={crypto}
-          setCoin={setCoin}
-          setCrypto={setCrypto}
-          setNewApiConsult={setNewApiConsult}
-        />
-      </View>
-      {spinner}
+      <ScrollView>
+        <Image style={styles.image} source={require("./assets/img/cryptomonedas.png")} />
+        <View style={styles.content}>
+          <Form
+            coin={coin}
+            crypto={crypto}
+            setCoin={setCoin}
+            setCrypto={setCrypto}
+            setNewApiConsult={setNewApiConsult}
+          />
+        </View>
+        {spinner}
+      </ScrollView>
     </>
   );
 }
