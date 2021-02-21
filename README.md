@@ -15,8 +15,8 @@ Las Herramientas para el desarrollo de esta app son:
 
 ## Despliegue 📦
 
-La aplicacion (por el momento) se encuentra en la fila de fabricacion de expo. Pronto dejaré un
-enlace de descarga para el que desee probarla.
+Ya se encuentra disponible una versión de la app lista para Android: <br />
+https://www41.zippyshare.com/v/yN8K7tJR/file.html
 
 ## Instalacion 🔧
 
